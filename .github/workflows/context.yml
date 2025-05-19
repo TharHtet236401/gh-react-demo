@@ -1,0 +1,9 @@
+name: Context
+on: [push, workflow_dispatch]
+jobs:
+  name: Context
+  runs-on: ubuntu-latest
+  steps:
+    - name: Checkout
+    - runs: echo ${{github}}
+
